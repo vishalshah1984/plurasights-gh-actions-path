@@ -1,8 +1,8 @@
 name: Test Worflow
 on:
   push:
-    branches:
-      - main
+    # branches:
+    #   - main
   # schedule:
   #   - cron: "0/5 * * * *"
   workflow_dispatch:
