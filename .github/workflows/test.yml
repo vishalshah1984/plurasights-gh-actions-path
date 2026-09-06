@@ -1,6 +1,6 @@
 name: Test Worflow
 on:
-  push:
+  # push:
     # branches:
     #   - main
   # schedule:
