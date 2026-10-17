@@ -12,4 +12,8 @@ jobs:
     steps:
       - name: Print Message
         run: echo "Hello World"
+      - name: Print Environment Variables
+        run: printenv
+      - name: OS name
+        run: cat /etc/os-releases
 
